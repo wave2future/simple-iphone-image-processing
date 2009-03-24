@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListBundleImagesViewController : UITableViewController {
-	NSMutableArray *bundleFiles;
-	NSString *imagesPath;
+@interface ListBundleImagesViewController : UITableViewController
+{
+    NSMutableArray *bundleFiles;
+    NSString *imagesPath;
 }
+
 
 @end

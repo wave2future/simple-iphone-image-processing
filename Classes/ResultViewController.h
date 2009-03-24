@@ -8,14 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ResultViewController : UIViewController {
-	IBOutlet UIImageView *originalImage;
-	IBOutlet UIImageView *resultImage;
+@interface ResultViewController : UIViewController
+{
+    IBOutlet UIImageView *originalImage;
+    IBOutlet UIImageView *resultImage;
 }
+
 
 @property(retain, nonatomic) UIImageView *resultImage;
 @property(retain, nonatomic) UIImageView *originalImage;
-
 
 -(void) setImage:(UIImage *) srcImage;
 
