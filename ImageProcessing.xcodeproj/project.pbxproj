@@ -257,8 +257,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
+<<<<<<< HEAD:ImageProcessing.xcodeproj/project.pbxproj
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38BCA539-A50B-4F16-B207-9167751615CD";
 				SDKROOT = iphoneos2.2.1;
+=======
+				SDKROOT = iphonesimulator2.2;
+>>>>>>> compile & run ok.:ImageProcessing.xcodeproj/project.pbxproj
 			};
 			name = Debug;
 		};
